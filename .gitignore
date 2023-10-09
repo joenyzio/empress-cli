@@ -1,0 +1,29 @@
+# Dependencies
+/node_modules
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# MacOS system files
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode/
+*.swp
+*.swo

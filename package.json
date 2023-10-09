@@ -1,0 +1,29 @@
+{
+  "name": "empress-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to interact with an xAPI-compliant MongoDB database",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cli.js"
+  },
+  "author": "Joe Nyzio",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^7.1.0",
+    "inquirer": "^7.3.3",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.1.0",
+    "omelette": "^0.4.17",
+    "qrcode": "^1.5.3",
+    "speakeasy": "^2.0.0",
+    "winston": "^3.11.0"
+  },
+  "bin": {
+    "empress-cli": "./cli.js"
+  }
+}
